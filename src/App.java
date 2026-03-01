@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Date;
-
+import java.util.Scanner;
 import java.awt.*;
 import java.text.NumberFormat;
 public class App {
@@ -38,7 +38,7 @@ public class App {
 
         // Escape sequnces => use spetial chars and functions inside strings
         String message3 = "Hello \n \"sewalam\"";
-        String message3 = "Hello \\";
+        String message31 = "Hello \\";
         System.out.println(message31); 
 
         // Arrays
@@ -101,6 +101,11 @@ public class App {
 
       String vv = NumberFormat.getPercentInstance() /*needed intermediate result for the next method*/.format(0.1);
 
+      // Reading Input 
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Age: ");
+      String name = scanner.nextLine();
+      System.out.println("You are "+ name);
 
 
 
