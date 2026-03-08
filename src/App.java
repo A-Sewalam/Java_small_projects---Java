@@ -104,11 +104,82 @@ public class App {
       // Reading Input 
       Scanner scanner = new Scanner(System.in);
       System.out.println("Age: ");
-      String name = scanner.nextLine();
+      String name = scanner.nextLine().trim();
       System.out.println("You are "+ name);
 
+    // mortgage calculator
 
 
+    final byte MONTHS_IN_YEAR = 12;
+    final byte  PERCENT = 4;
+
+    
+    System.out.println("principle");
+    int principle = scanner.nextInt();
+
+    System.out.println("Annual Interest Rate : ");
+    int annualInterestRate  = scanner.nextInt();
+
+    System.out.println("Period(Years) : ");
+    byte years = scanner.nextByte();
+
+    // Intermediate Calculation 
+
+
+    // Formula Calculation 
+
+
+
+    // -- Control Flow --
+
+    // Comparison operators -- used with primitive variables 
+
+    int x2 = 1 ;
+    int y2 = 3 ;
+    System.out.println( x2==y2 );// != , < , <= , ...
+    //x==y => boolean expresion
+
+    // Logical operators => && , || ,!
+
+    // if statements
+
+
+    // ternery operator 
+
+    int income = 100_000; 
+    String className = income > 100_000 ? "First" : "Economy"; // compare bet 2 options based on condition
+                                                               //  there are alternatives rather than simple if 
+
+    // switch
+    int role = 2;
+    switch (role){
+
+      case 2: 
+      System.out.println("you are an admin");
+      break;  //very important 
+
+      case 1: 
+      System.out.println("you are an admin");
+      break;  //very important 
+
+      default:
+        break;
+    }
+
+        // bizz fuz question
+
+        // => we need to make the most specifec sol first, first you need to reach a sol then improve it 
+        
+        // for 
+
+        for (int i = 1 ; i<=5 ; i++)
+          System.out.println(i);
+     
+
+
+
+
+    
 
 
 
